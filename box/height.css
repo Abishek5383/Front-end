@@ -1,0 +1,13 @@
+.box{
+    text-align: center;
+    border: 2px solid ;
+    margin-left: 0;
+    height: auto;
+    width: 50%;
+    float: left;
+    padding: 25px; 
+    box-sizing: border-box;
+}
+.con{
+    background-color: blue;
+}

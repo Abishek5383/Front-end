@@ -1,0 +1,40 @@
+body{
+    background-image: url(img/im1.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    filter: brightness(10px) saturate()opacity(68);
+
+}
+
+#p1{
+    border: 2px;
+    border-color: black;
+    border-style: groove;
+    height: 100px;
+    width: 550px;
+    overflow:auto;
+    position: absolute;
+    margin: 10px;
+}
+#hd1{
+    text-align: center;
+}
+#lf{
+    height: 200px;
+    width: 72;
+}
+#ui{
+    float:inline-start;    
+
+}
+#vid {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  z-index: -1; /* Fixed the syntax error here */
+}
